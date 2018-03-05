@@ -1,0 +1,14 @@
+{
+  "name": "herokuapp",
+  "version": "1.0.0",
+  "description": "Angular Project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Hemant",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
