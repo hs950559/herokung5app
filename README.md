@@ -35,3 +35,17 @@ git push heroku master
 ```
 
 Demo - https://ng5demo.herokuapp.com/
+
+
+## Futureproofing your heroku app
+
+```
+// add `engines` to package.json
+node -v
+npm -v
+
+"engines": {
+	"node": "9.5.0",
+	"npm": "5.6.0"
+}
+```
